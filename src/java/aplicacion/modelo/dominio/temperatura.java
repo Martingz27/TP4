@@ -11,7 +11,7 @@ import java.io.Serializable;
  *
  * @author Usuario
  */
-public class Temperatura implements Serializable {
+public class temperatura implements Serializable {
  
     
     public double calcularTemperatura(double grado, int opcion){

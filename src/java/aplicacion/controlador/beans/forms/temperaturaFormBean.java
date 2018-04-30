@@ -6,7 +6,7 @@ package aplicacion.controlador.beans.forms;
  * and open the template in the editor.
  */
 
-import aplicacion.modelo.dominio.Temperatura;
+import aplicacion.modelo.dominio.temperatura;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 
@@ -19,7 +19,7 @@ import javax.faces.bean.ViewScoped;
 public class temperaturaFormBean {
     private int opcion;
     private double grado;
-    private Temperatura temperatura;
+    private temperatura temperatura;
 
     /**
      * Creates a new instance of temperaturaFormBean
@@ -32,7 +32,7 @@ public class temperaturaFormBean {
     
     
     public temperaturaFormBean() {
-        temperatura=new Temperatura();
+        temperatura=new temperatura();
     }
 
     public double getGrado() {
@@ -52,11 +52,11 @@ public class temperaturaFormBean {
     }
     
 
-    public Temperatura getTemperatura() {
+    public temperatura getTemperatura() {
         return temperatura;
     }
 
-    public void setTemperatura(Temperatura temperatura) {
+    public void setTemperatura(temperatura temperatura) {
         this.temperatura = temperatura;
     }
     
